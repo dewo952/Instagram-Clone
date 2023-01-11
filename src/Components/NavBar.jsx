@@ -1,8 +1,8 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import instagram from "../../Assets/instagram.png";
-import usericons from "../../Assets/usericons.jpg";
+import instagram from "../Assets/instagram.png";
+import usericons from "../Assets/usericons.jpg";
 function NavBar() {
   return (
     <nav className="sticky top-0 w-full border border-b-1 z-50 bg-white ">
@@ -11,7 +11,8 @@ function NavBar() {
           <div className="basis-1/3 ">
             <img src={instagram} alt="Instagram" width="120" />
           </div>
-          <div className="basis-1/3 ">
+
+          <div className="basis-1/3 md:block hidden">
             <div className="relative">
               <FontAwesomeIcon
                 icon="magnifying-glass"
@@ -53,7 +54,7 @@ function NavBar() {
               </li>
               <li>
                 <a className="cursor-pointer" href>
-                  <img className="rounded-full w-6 h-6" src={usericons} alt="" />
+                  <img className="rounded-full w-6 h-6 w-ful" src={usericons} alt="" />
                 </a>
               </li>
             </ul>

@@ -1,7 +1,7 @@
 import Stories from "../Components/HomePage Components/Stories";
 import BasicProfile from "../Components/HomePage Components/BasicProfile";
 import Suggestion from "../Components/HomePage Components/Suggestion";
-import Footer from "../Components/HomePage Components/Footer";
+import Footer from "../Components/Footer";
 import Post from "../Components/HomePage Components/Post";
 
 const HomePage = () => {
