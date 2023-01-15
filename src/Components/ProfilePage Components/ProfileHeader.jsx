@@ -2,7 +2,7 @@ import React from "react";
 import usericons from "../../Assets/usericons.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const ProfileHeader = () => {
+const ProfileHeader = ({ setIsSettingModalOpen }) => {
   return (
     <div className="grid grid-cols-3 mb-10">
       <div className="bg-green p-3 rounded flex items-start justify-center">
@@ -19,7 +19,11 @@ const ProfileHeader = () => {
           <button className="bg-white ml-3 text-gray-800 font-semibold py-1 px-2 border border-gray-400 rounded text-sm">
             Edit Profile
           </button>
-          <a href="/" className="ml-3">
+          <a
+            href
+            className="ml-3 cursor-pointer"
+            onClick={() => setIsSettingModalOpen(true)}
+          >
             <FontAwesomeIcon icon="gear" className="text-2xl leading-6" />
           </a>
         </div>

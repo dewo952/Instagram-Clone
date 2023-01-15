@@ -1,20 +1,19 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Stories = () => {
   return (
-    <div className="relative mb-5 bg-white">
-      <div className="absolute left-3 top-1/2">
-        <a
-          className="bg-white text-gray-400 flex items-center justify-center rounded-full text-sm w-6 h-6 shadow-md cursor-pointer"
-          href="/"
-        >
+    <div className="relative mb-5">
+      <div className="absolute left-3 top-1/2 -translate-y-1/2 z-10">
+        <a className="bg-white text-gray-400 flex items-center justify-center rounded-full w-6 h-6 text-xs shadow-md cursor-pointer">
           <FontAwesomeIcon icon="chevron-left" />
         </a>
       </div>
-      <div className="absolute right-3 top-1/2">
+
+      <div className="absolute right-3 top-1/2 -translate-y-1/2 z-10">
         <a
-          className="bg-white text-gray-400 flex items-center justify-center rounded-full text-sm w-6 h-6 shadow-md cursor-pointer"
+          className="bg-white text-gray-400 flex items-center justify-center rounded-full  w-6 h-6 text-xs shadow-md cursor-pointer"
           href="/"
         >
           <FontAwesomeIcon icon="chevron-right" />
