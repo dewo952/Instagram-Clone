@@ -17,7 +17,10 @@ const ProfileHeader = ({ setIsSettingModalOpen }) => {
         <div className="flex items-center">
           <h1 className="inline-block text-3xl align-bottom">dewo952</h1>
           <button className="bg-white ml-3 text-gray-800 font-semibold py-1 px-2 border border-gray-400 rounded text-sm">
+          <a href="/accounts">
             Edit Profile
+
+          </a>
           </button>
           <a
             href

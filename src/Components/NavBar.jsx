@@ -117,7 +117,7 @@ function NavBar() {
                                 icon="fa-solid fa-bookmark"
                                 className="mr-3"
                               />
-                              Saved
+                              Saved 
                             </Link>
                           )}
                         </Menu.Item>
@@ -126,7 +126,7 @@ function NavBar() {
                         <Menu.Item>
                           {({ active }) => (
                             <Link
-                              to="profilepage"
+                              to="/profilepage"
                               className={classNames(
                                 active
                                   ? "bg-gray-100 text-gray-900"

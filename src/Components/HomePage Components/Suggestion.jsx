@@ -13,6 +13,7 @@ const Suggestion = () => {
           </a>
         </div>
       </div>
+
       <div className="flex py-2">
         <div className="flex items-center">
           <a href="/" className="inline-block align-top">
