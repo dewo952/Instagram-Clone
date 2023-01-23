@@ -8,7 +8,7 @@ const ChangePasswordPage = () => {
         <div className="w-1/3 p-3">
           <a className="float-right mr-5">
             <img
-              src="https://randomuser.me/api/portraits/men/8.jpg"
+              src="https://randomuser.me/api/portraits/men/9.jpg"
               width="40"
               alt=""
               className="rounded-full"
@@ -16,7 +16,7 @@ const ChangePasswordPage = () => {
           </a>
         </div>
         <div>
-          <h1 className="text-2xl">user123</h1>
+          <h1 className="text-2xl">divenkhtri</h1>
         </div>
       </div>
 

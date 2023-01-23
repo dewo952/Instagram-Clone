@@ -15,7 +15,7 @@ const EditProfitePage = () => {
         <div className="w-1/3 p-3">
           <a className="float-right mr-5">
             <img
-              src="https://randomuser.me/api/portraits/men/8.jpg"
+              src="https://randomuser.me/api/portraits/men/9.jpg"
               width="40"
               alt=""
               className="rounded-full"
@@ -23,7 +23,7 @@ const EditProfitePage = () => {
           </a>
         </div>
         <div>
-          <h1 className="text-2xl">user123</h1>
+          <h1 className="text-2xl">divenkhtri</h1>
           <a className="text-sm text-sky-500 font-bold">Change Profile Phote</a>
         </div>
       </div>

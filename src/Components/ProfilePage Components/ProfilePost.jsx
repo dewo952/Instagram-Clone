@@ -70,9 +70,7 @@ const ProfilePost = () => {
       <UserPost/>
       <UserPost/>
       <UserPost/>
-      <UserPost/>
-      <UserPost/>
-      <UserPost/>
+
       </div>
     </>
   );

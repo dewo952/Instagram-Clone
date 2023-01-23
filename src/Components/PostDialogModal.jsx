@@ -20,7 +20,6 @@ const PostDialogModal = (props) => {
 
         <li>
           <a
-          href=""
             onClick={() => props.setOpen()}
             className="border-b text-center py-3 block cursor-pointer"
           >

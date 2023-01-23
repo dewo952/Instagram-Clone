@@ -65,7 +65,7 @@ function NavBar() {
                   <Menu.Button className="inline-block w-8 h-8 justify-center bg-white text-sm font-medium text-gray-700">
                     <img
                       className="rounded-full w-6 h-6 w-ful"
-                      src={usericons}
+                      src="https://randomuser.me/api/portraits/men/9.jpg"
                       alt=""
                     />
                   </Menu.Button>

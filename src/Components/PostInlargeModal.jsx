@@ -58,7 +58,8 @@ const PostInLargeModal = (props) => {
               </div>
               <div className="grow relative">
                 <div className="px-3 text-sm">
-                  <span className="font-medium mr-2">useeee234</span>I swear I couldn’t love you more than I do right now, and yet I know I will tomorrow.    ,   I know that somehow, every step I took since the moment I could walk was a step towards finding you.
+                  <span className="font-medium mr-2">user123</span>I swear I
+                  couldn’t love this more than.
                 </div>
                 <a className="absolute top-0 right-0 block float-right text-xs cursor-pointer text-red-600">
                   <FontAwesomeIcon icon="heart" />

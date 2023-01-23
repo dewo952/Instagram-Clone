@@ -25,7 +25,7 @@ const Suggestion = () => {
             />
           </a>
           <div className="inline-block ml-2">
-            <div className="text-sm font-medium">USer232323</div>
+            <div className="text-sm font-medium">User123</div>
             <div className="text-gray-500 text-xs">Suggestion for you</div>
           </div>
         </div>
@@ -40,13 +40,13 @@ const Suggestion = () => {
           <a href="/" className="inline-block align-top">
             <img
               className="rounded-full"
-              src="https://randomuser.me/api/portraits/women/5.jpg"
+              src="https://randomuser.me/api/portraits/men/1.jpg"
               alt=""
               width="45"
             />
           </a>
           <div className="inline-block ml-2">
-            <div className="text-sm font-medium">USer232323</div>
+            <div className="text-sm font-medium">User345</div>
             <div className="text-gray-500 text-xs">Suggestion for you</div>
           </div>
         </div>
@@ -56,18 +56,20 @@ const Suggestion = () => {
           </a>
         </div>
       </div>
+
+      {/* Suggestion 3 */}
       <div className="flex py-2">
         <div className="flex items-center">
           <a href="/" className="inline-block align-top">
             <img
               className="rounded-full"
-              src="https://randomuser.me/api/portraits/women/5.jpg"
+              src="https://randomuser.me/api/portraits/men/6.jpg"
               alt=""
               width="45"
             />
           </a>
           <div className="inline-block ml-2">
-            <div className="text-sm font-medium">USer232323</div>
+            <div className="text-sm font-medium">daneil</div>
             <div className="text-gray-500 text-xs">Suggestion for you</div>
           </div>
         </div>
@@ -77,18 +79,20 @@ const Suggestion = () => {
           </a>
         </div>
       </div>
+
+      {/* Suggestion 4 */}
       <div className="flex py-2">
         <div className="flex items-center">
           <a href="/" className="inline-block align-top">
             <img
               className="rounded-full"
-              src="https://randomuser.me/api/portraits/women/5.jpg"
+              src="https://randomuser.me/api/portraits/men/5.jpg"
               alt=""
               width="45"
             />
           </a>
           <div className="inline-block ml-2">
-            <div className="text-sm font-medium">USer232323</div>
+            <div className="text-sm font-medium">haresh</div>
             <div className="text-gray-500 text-xs">Suggestion for you</div>
           </div>
         </div>

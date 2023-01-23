@@ -1,13 +1,13 @@
 import React from "react";
-import usericons from "../../Assets/usericons.jpg";
+
 
 const BasicProfile = () => {
   return (
     <div className="flex flex-row">
       <a href>
         <img
-          className="rounded-full w-28 h-16"
-          src={usericons}
+          className="rounded-full w-28 "
+          src="https://randomuser.me/api/portraits/men/9.jpg"
           alt=""
           width="100"
         />
